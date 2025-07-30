@@ -33,7 +33,10 @@ dependencies:
   flat_buffers: ^23.5.26
   flutter:
     sdk: flutter
-  flutter_map: ^8.1.1
+  flutter_map:
+    git:
+      url: https://github.com/fleaflet/flutter_map.git
+      ref: master
   http: ^1.2.2
   latlong2: ^0.9.1
   meta: ^1.15.0
